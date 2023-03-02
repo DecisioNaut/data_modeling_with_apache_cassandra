@@ -5,7 +5,7 @@ description = "Project in Course of Udacity's Nano-Degree Program 'Data Engineer
 authors = ["Caspar Heidbrink <37964284+DecisioNaut@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "data_modeling_with_apache_cassandra"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
