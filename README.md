@@ -37,7 +37,7 @@ Lastly, **I've created a package contained in `src` which contains the code for 
 - Pandas 1.5.3
 - Numpy 1.24.2
 - Cassandra-driver 3.25.0
-I chose these as they were also used in the project template (although Pandas and Numpy are actually not needed in this project). I've installed them using poetry. For pip users, please find the requirements in the file `requirements.txt`.
+I chose these as they were also used in the project template (although Numpy is actually not needed in this project). I've installed them using poetry. For pip users, please find the requirements in the file `requirements.txt`.
 
 **Installing Apache Cassandra on macOS** (my machine) is easy using homebrew. I've installed it using the following command:
 
