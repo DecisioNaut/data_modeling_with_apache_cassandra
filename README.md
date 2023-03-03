@@ -24,9 +24,9 @@ I hope the reviewer of this project will forgive me for this ;-)
 
 ## Project Structure
 
-Udacity provides a project template `Project_1B_Project_Template.ipynb` on the root level of the project. Included in this template is a picture contained in the folder `images`. This template serves me as a starting point for this project, but **my actual work is contained in the notebook `Project_1B_Project.ipynb`**.  
+Udacity provides a project template `Project_1B_Project_Template.ipynb` on the root level of the project. Included in this template is a picture contained in the folder `images`. This template serves me as a starting point for this project, but **my actual work is contained in the notebook `Project_1B_Project.ipynb`**. I moved them **both to the folder `notebooks`** to keep the root level cleaner. 
 
-Furthermore, it provides a folder `event_data` which contains the data to be processed. The folder files `2018-11-01-events.csv` to `2018-11-30-events.csv`, which contain the actual data to be used in this project.  
+Furthermore, it provides a folder `event_data` which contains the data to be processed. The folder files `2018-11-01-events.csv` to `2018-11-30-events.csv`, which contain the actual data to be used in this project. I **moved this folder into the folder `data`**, again, to keep the root level cleaner. **Preprocessed data can be found in the folder `data/preprocessed`**. 
 
 Lastly, **I've created a package contained in `src` which contains the code for some functionality** to make the notebook a bit cleaner.
 
@@ -37,7 +37,7 @@ Lastly, **I've created a package contained in `src` which contains the code for 
 - Pandas 1.5.3
 - Numpy 1.24.2
 - Cassandra-driver 3.25.0
-I chose these as they were also used in the project template. I've installed them using poetry. For pip users, please find the requirements in the file `requirements.txt`.
+I chose these as they were also used in the project template (although Pandas and Numpy are actually not needed in this project). I've installed them using poetry. For pip users, please find the requirements in the file `requirements.txt`.
 
 **Installing Apache Cassandra on macOS** (my machine) is easy using homebrew. I've installed it using the following command:
 
