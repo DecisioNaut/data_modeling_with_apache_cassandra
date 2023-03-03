@@ -18,6 +18,7 @@ cassandra-driver = "^3.25.0"
 ipykernel = "^6.21.2"
 flake8 = "^6.0.0"
 black = "^23.1.0"
+matplotlib = "^3.7.0"
 
 [build-system]
 requires = ["poetry-core"]
